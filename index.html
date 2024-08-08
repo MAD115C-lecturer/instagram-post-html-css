@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Post Card Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Content will go here -->
+    <div class="card">
+      <!-- Top Section -->
+      <div class="top">
+        <!-- User Details -->
+        <div class="user-details">
+          <div class="avatar">
+            <img src="images/user-profile.png" alt="user" class="cover" />
+          </div>
+          <h3>Lorde Voldemort<br /><span>The Dark Lord</span></h3>
+        </div>
+
+        <!-- Options Icon -->
+        <div class="options">
+          <img src="images/options-icon.png" alt="options" />
+        </div>
+      </div>
+
+      <!-- Post Image -->
+      <div class="post-image">
+        <img src="images/post-pic-1.png" alt="bg" class="cover" />
+      </div>
+
+      <!-- Buttons -->
+      <div class="btns">
+        <div class="left">
+          <img
+            src="images/like-icon.png"
+            alt="like post"
+            class="heart"
+            onclick="likeButton()"
+          />
+          <img src="images/comment-icon.png" alt="comment post" />
+          <img src="images/share-icon.png" alt="share post" />
+        </div>
+        <div class="right">
+          <img src="images/bookmark-icon.png" alt="bookmark post" />
+        </div>
+      </div>
+
+      <!-- Likes Count -->
+      <h4 class="likes-count">1,490 likes</h4>
+
+      <!-- Caption -->
+      <h4 class="caption">
+        <b>Lorde Voldemort</b>
+        Death Eaters and I are preparing to attack Hogwarts.😈😈😈
+        <span>#heisback</span>
+        <span>#tomriddle</span>
+      </h4>
+
+      <!-- Comments -->
+      <h4 class="comments">View all 153 comments</h4>
+
+      <!-- Add Comments Section -->
+      <div class="add-comments">
+        <div class="userImg">
+          <img src="images/user-profile.png" alt="user" class="cover" />
+        </div>
+        <input type="text" class="text" placeholder="Add a comment..." />
+      </div>
+
+      <!-- Post Time -->
+      <h5 class="post-time">30 minutes ago</h5>
+    </div>
+  </body>
+</html>
