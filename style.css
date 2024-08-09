@@ -69,7 +69,6 @@ body {
 
 /* Options Icon */
 .card .top .options img {
-  width: 24px;
   cursor: pointer;
 }
 
